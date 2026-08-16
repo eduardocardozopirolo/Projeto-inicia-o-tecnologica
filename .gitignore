@@ -1,0 +1,58 @@
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+*.env
+!.env.example
+secrets/
+credentials/
+credentials.json
+service-account*.json
+*service_account*.json
+
+# Chaves privadas e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+
+# Ambiente virtual e dependências Python
+.venv/
+venv/
+env/
+ENV/
+
+# Cache e artefatos Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Banco vetorial e dados gerados localmente
+qdrant_storage/
+
+# Editores e sistema operacional
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
